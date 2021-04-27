@@ -1,3 +1,5 @@
+package lesson1;
+
 public class LessonApp {
 
 
@@ -26,7 +28,7 @@ public class LessonApp {
                 result = array[j].tournament(arr[i]);
 
                 if(!result){
-                    System.out.println(arr[i].getName() + " выбывает из соревнования!" );
+                    System.out.println(" " + arr[i].getName() + " выбывает из соревнования!" );
                     break;
                 }
             }

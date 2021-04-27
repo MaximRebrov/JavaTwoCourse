@@ -1,3 +1,4 @@
+package lesson1;
 public interface Action {
 
     void jump();

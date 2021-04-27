@@ -1,10 +1,12 @@
-public class Human implements Action {
+package lesson1;
+
+public class Cat implements Action {
 
     private String name;
     private int run;
     private int jump;
 
-    public Human(String name, int run, int jump) {
+    public Cat(String name, int run, int jump) {
         this.name = name;
         this.run = run;
         this.jump = jump;
@@ -26,13 +28,12 @@ public class Human implements Action {
     }
 
     @Override
-    public void run() {
-        System.out.println(name + " пробежал " + run + " метров.");
+    public void jump() {
+        System.out.println(" " + name + " приступила к прыжкам через припятствие...");
     }
 
     @Override
-    public void jump() {
-        System.out.println(name + " перепрыгнул препятствие!");
+    public void run() {
+        System.out.println(" " + name + " начала забег...");
     }
-
 }

@@ -1,3 +1,4 @@
+package lesson1;
 public class Robot implements Action {
 
     private String name;
@@ -28,11 +29,11 @@ public class Robot implements Action {
 
     @Override
     public void run() {
-        System.out.println(name + " пробежал " + run);
+        System.out.println(" " + name + " начал забег...");
     }
 
     @Override
     public void jump() {
-        System.out.println(name + " перепрыгнул препятствие!");
+        System.out.println(" " + name + " приступил к преодолению препятствий...");
     }
 }
